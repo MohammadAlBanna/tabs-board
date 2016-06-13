@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Tabs Board",
+    "version": "2.5.1",
+    "description": "Easy way to manage your opened tabs like cards on board, pin your important tabs on extra drawer board, search by voice, and more!",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "author": "http://www.mbanna.info",
+    "permissions": ["tabs", "background","<all_urls>","storage","unlimitedStorage"],
+    "browser_action": {
+        "default_icon": "images/48.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": true
+    },
+    "homepage_url":"http://www.mbanna.info/tabs-board-chrome-extension/",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "css": ["css/core.css"],
+        "js": ["js/jquery.js","js/enscroll.js","js/jquery-ui.js", "js/core.js"]
+    }],
+     "web_accessible_resources": [
+       "images/*",
+       "css/*"
+     ]
+}

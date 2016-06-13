@@ -1,0 +1,297 @@
+/**
+ * This code has been written by: Mohammad M. AlBanna
+ * Website: MBanna.info 
+ * Facebook: FB.com/MBanna.info
+ * Copyright © 2016 Mohammad M. AlBanna
+ */
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+body, p {
+    margin: 0;
+    padding: 0
+}
+li, ol, ul {
+    list-style: none;
+}
+input, select {
+    outline: 0;
+    padding: 3px;
+    width: 130px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+    width: 400px;
+    background-color: #EBEBEB
+}
+a {
+    color: #5A5A5A;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header {
+    text-align: center;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 5px;
+    height: 50px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45484d), color-stop(100%, #2b2b2b));
+    background: -webkit-linear-gradient(top, #45484d 0, #2b2b2b 100%);
+    background: linear-gradient(to bottom, #45484d 0, #2b2b2b 100%);
+    position: relative;
+}
+.header h2, .header h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #fff;
+}
+.tabsText {
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    font-family: tahoma, arial;
+    font-size: 16px;
+    color: #D7D7D7;
+    font-weight: 700;
+}
+.boardText {
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    font-family: tahoma, arial;
+    font-size: 16px;
+    color: #D7D7D7;
+    font-weight: 700;
+}
+.header #tabsImageLogo {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.new-tab {
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    font-weight: 700;
+    font-family: tahoma;
+    top: 0;
+    left: 65%;
+}
+.extensionOptions table {
+    margin: 15px auto 20px;
+    border-top: 1px dashed #9B9B9B;
+    padding-top: 15px;
+}
+.social-media {
+    text-align: center;
+}
+.social-media img {
+    margin-top: 10px;
+}
+.extensionOptions p {
+    font-family: tahoma;
+    font-size: 14px;
+    color: #585858;
+}
+.extensionOptions table tr {
+    line-height: 20px!important
+}
+h4 {
+    margin: 0 0 10px;
+}
+.footer a {
+    color: #ECECEC!important;
+    line-height: 30px;
+    position: relative;
+}
+.footer img {
+    position: absolute;
+    left: -30px;
+    top: -3px;
+}
+.footer {
+    height: 30px;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+    font-weight: 700;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45484d), color-stop(100%, #2b2b2b));
+    background: -webkit-linear-gradient(top, #45484d 0, #2b2b2b 100%);
+    background: linear-gradient(to bottom, #45484d 0, #2b2b2b 100%)
+}
+.products-list {
+    overflow: hidden;
+    padding: 5px;
+    border-bottom: 1px dashed #CECECE;
+    position: relative;
+}
+.products-list: last-child {
+    border-bottom: none;
+}
+.products-list-focus {
+    background-color: #F8F8F8;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+.products-list-focus:after {
+    content: 'New!';
+    color: red;
+    position: absolute;
+    font-family: tahoma;
+    font-size: 10px;
+    top: 2px;
+    right: 7px;
+    font-weight: 700;
+}
+.products-list-image img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    padding: 2px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border: 1px solid rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    border-radius: 50%;
+}
+.products-info {
+    float: left;
+    margin-left: 5px;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+}
+.products-info a {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.products-info a:nth-child(1) {
+    font-weight: 700;
+}
+.products-info a:nth-child(2) {
+    height: 30px;
+    white-space: initial;
+}
+#loaderImg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+#tab-3 {
+    text-align: center;
+    color: #4C66A4;
+}
+#tab-3 iframe {
+    background: #FAFAFA!important;
+    border: 1px solid #C8C8C8!important;
+    border-radius: 5px!important;
+}
+ul.tabs {
+    margin: 5px 5px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    z-index: 100;
+}
+ul.tabs li {
+    background: 0 0;
+    color: #5A5A5A;
+    display: inline-block;
+    padding: 9px 20px;
+    cursor: pointer;
+    position: relative;
+}
+ul.tabs li.current {
+    background-color: #DFDFDF;
+    color: #5A5A5A;
+    font-weight: 700;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top: 1px solid #D6D6D6;
+    border-left: 1px solid #D6D6D6;
+    border-right: 1px solid #D6D6D6;
+}
+.tab-content {
+    display: none;
+    background: #ededed;
+    position: relative;
+    padding: 9px 9px 0;
+    height: 270px;
+    overflow: auto;
+    z-index: 1;
+    width: 94% !important;
+}
+.tab-content:after {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    background: url(../images/128.png) center/100% no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    opacity: .04;
+    position: fixed;
+    z-index: -100;
+}
+.tab-content.current {
+    display: inherit;
+    border-top: 1px solid #D6D6D6
+}
+#scrollbox4 {
+    overflow: auto;
+    padding: 0 5px;
+    border: 1px solid #b7b7b7
+}
+.track4 {
+    width: 10px;
+    background-clip: padding-box;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0 0 0 1px;
+}
+.track4.dragging, .track4:hover {
+    background: #f2f2f2;
+    background: rgba(0, 0, 0, .05);
+    box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+}
+.track4:active {
+    background: #f2f2f2;
+    background: rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14), inset -1px -1px 0 rgba(0, 0, 0, .07);
+    box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14), inset -1px -1px 0 rgba(0, 0, 0, .07);
+}
+.handle4 {
+    width: 10px;
+    right: 0;
+    background: #696969;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    border-radius: 5px;
+}
+.handle4:hover {
+    background: #999;
+    background: rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+}
+.dragging .handle4, .handle4:active {
+    background: gray;
+    background: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35);
+}
